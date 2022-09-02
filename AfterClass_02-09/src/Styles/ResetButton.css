@@ -1,0 +1,21 @@
+.Reset__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.Reset__button button {
+    padding: 10px 50px;
+    color: #F9F9F9;
+    background: linear-gradient(to right, #1B2430, #1B2430) padding-box, linear-gradient(to right, #7A0BC0, #E94560) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.Reset__button button:hover{
+    background: linear-gradient(to right, #7A0BC0, #E94560) border-box;
+    transition: all 0.5s ease-in;
+}

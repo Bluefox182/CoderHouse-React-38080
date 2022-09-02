@@ -1,0 +1,20 @@
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Counter svg {
+    font-size: 50px;
+    margin: 20px;
+    color: #F9F9F9;
+    cursor: pointer;
+}
+
+.Counter__icon:hover {
+    color: #7A0BC0;
+}
+
+.Counter__number {
+    font-size: 28px;
+}
